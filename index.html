@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hesap Makinesi</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="text">
+            <h1>Ecrinnur Şahin</h1>
+            <p>"Denizleri seviyorsan dalgaları da seveceksin <br>
+                Sevilmek istiyorsan önce sevmeyi bileceksin<br>
+                Uçmayı seviyorsan düşmeyi de bileceksin<br>
+                Korkarak yaşıyorsan yalnızca hayatı seyredersin" </p>
+        </div>
+        <div class="calculator">
+            <input type="text" id="display" disabled>
+            <div class="buttons">
+                <button class="btn" onclick="clearDisplay()">C</button>
+                <button class="btn" onclick="clearDisplay2()">CE</button>
+                <button class="btn" onclick="appendToDisplay('/')">/</button>
+                <button class="btn" onclick="appendToDisplay('*')">*</button>
+                <button class="btn" onclick="appendToDisplay('-')">-</button>
+                <button class="btn" onclick="appendToDisplay('7')">7</button>
+                <button class="btn" onclick="appendToDisplay('8')">8</button>
+                <button class="btn" onclick="appendToDisplay('9')">9</button>
+                <button class="btn" onclick="appendToDisplay('+')">+</button>
+                <button class="btn" onclick="appendToDisplay('6')">6</button>
+                <button class="btn" onclick="appendToDisplay('5')">5</button>
+                <button class="btn" onclick="appendToDisplay('4')">4</button>
+                <button class="btn" onclick="appendPower('^')">^</button>
+                <button class="btn" onclick="appendToDisplay('3')">3</button>
+                <button class="btn" onclick="appendToDisplay('2')">2</button>
+                <button class="btn" onclick="appendToDisplay('1')">1</button>
+                <button class="btn" onclick="percentage('%')">%</button>
+                <button class="btn" onclick="squareRoot('√x')">√x</button>
+                <button class="btn" onclick="calculateResult('=')">=</button>
+                <button class="btn" onclick="appendToDisplay('0')">0</button>
+
+
+            </div>
+            <script src="app.js"></script>
+        </div>
+    </body>
+    
+
+ 
+</html>

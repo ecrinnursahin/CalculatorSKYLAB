@@ -1,0 +1,70 @@
+body{
+    background-image:url('51f711a412eb7e4f61652a411dafa484.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.985);
+    margin: auto;  
+}
+
+.text {
+    text-align  : center;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.985);
+    color: rgb(255, 255, 255);
+    padding: 200px 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-style: italic;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.985);
+}
+
+
+.calculator{
+    background-color: #f5b47a;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.985);
+    display: flex; /*calculator itemlerini yan yana getir*/
+    flex-direction: column; /*flexi yönet, sütun(sütun olarak diz)*/
+
+}
+
+#display{ /*dşsplay ismini verdiğimiz şu işlem kısmı*/
+    justify-content: center;
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    color: black;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+.btn{
+    margin-top: 7px; /*kenarboşluğu demek*/
+    padding: 5px;
+    height: 60px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #595959(0, 0, 0, 0.5);
+    background-color: rgb(234, 158, 78);
+    color: white;
+    cursor: pointer; /*tıklanabilir içerik*/
+}
+
+.btn:hover{ /*hover: üstüne geldiğinde demek*/
+    background-color: rgb(205, 115, 4);
+}
